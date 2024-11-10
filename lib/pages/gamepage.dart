@@ -43,7 +43,7 @@ class _GamePageState extends State<GamePage> {
 
   void initAudio() async {
     await cardFlipPlayer.setPlayerMode(PlayerMode.lowLatency);
-    await cardFlipPlayer.setVolume(0.5);
+    await cardFlipPlayer.setVolume(1);
   }
 
   void playCardFlip() async {
